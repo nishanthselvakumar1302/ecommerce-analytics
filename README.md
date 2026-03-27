@@ -35,26 +35,27 @@ both Data Analyst and Data Scientist roles.
 
 ---
 
+## 🗂️ Project Structure
 ecommerce-analytics/
 │
-├── app/
-│   ├── app.py
-│   └── requirements.txt
-│
 ├── data/
-│   ├── cleaned/
-│   ├── rfm/
-│   └── recommendations/
-│
-├── models/
-│   ├── churn_model.pkl
-│   └── scaler.pkl
-│
+│   ├── raw/                  ← Original dataset
+│   ├── cleaned/              ← Cleaned CSV
+│   ├── rfm/                  ← RFM segments
+│   ├── recommendations/      ← Product recommendations
+│   ├── sql_results/          ← SQL query outputs
+│   └── charts/               ← All chart images
 ├── notebooks/
-├── dashboard/
-├── requirements.txt
-├── runtime.txt
-├── README.md
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_sql_analysis.ipynb
+│   ├── 04_rfm_segmentation.ipynb
+│   ├── 05_churn_model.ipynb
+│   └── 06_recommendation.ipynb
+├── dashboard/                ← Tableau files + screenshots
+├── models/                   ← Saved ML models (.pkl)
+├── app/                      ← Streamlit app
+└── README.md
 
 ---
 
