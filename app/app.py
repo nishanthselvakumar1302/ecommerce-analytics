@@ -94,9 +94,9 @@ st.markdown("""
 def load_data():
     base = os.path.dirname(os.path.abspath(__file__))
 
-   df  = pd.read_csv(os.path.join(base, '../data/cleaned/cleaned_online_retail.csv'))
-rfm = pd.read_csv(os.path.join(base, '../data/rfm/rfm_segments.csv'))
-rec = pd.read_csv(os.path.join(base, '../data/recommendations/all_recommendations.csv'))
+    df  = pd.read_csv(os.path.join(base, 'C:\\Users\\nisha\\OneDrive\\Documents\\Project\\ecommerce-analytics\\data\\cleaned\\cleaned_online_retail.csv'))
+    rfm = pd.read_csv(os.path.join(base, 'C:\\Users\\nisha\\OneDrive\\Documents\\Project\\ecommerce-analytics\\data\\rfm\\rfm_segments.csv'))
+    rec = pd.read_csv(os.path.join(base, 'C:\\Users\\nisha\\OneDrive\\Documents\\Project\\ecommerce-analytics\\data\\recommendations\\all_recommendations.csv'))
 
     df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])
     df['YearMonth']   = df['InvoiceDate'].dt.to_period('M').astype(str)
@@ -106,13 +106,10 @@ rec = pd.read_csv(os.path.join(base, '../data/recommendations/all_recommendation
 @st.cache_resource
 def load_model():
     base = os.path.dirname(os.path.abspath(__file__))
-
-    with open(os.path.join(base, '../data/churn model/churn_model.pkl'), 'rb') as f:
+    with open(os.path.join(base, 'C:\\Users\\nisha\\OneDrive\\Documents\\Project\\ecommerce-analytics\\data\\churn model\\churn_model.pkl'), 'rb') as f:
         model = pickle.load(f)
-
-    with open(os.path.join(base, '../data/churn model/scaler.pkl'), 'rb') as f:
+    with open(os.path.join(base, 'C:\\Users\\nisha\\OneDrive\\Documents\\Project\\ecommerce-analytics\\data\\churn model\\scaler.pkl'), 'rb') as f:
         scaler = pickle.load(f)
-
     return model, scaler
 
 df, rfm, rec_df = load_data()
