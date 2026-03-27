@@ -31,7 +31,7 @@ both Data Analyst and Data Scientist roles.
 ![App Overview](data/charts/app_overview.png)
 
 ### Tableau Dashboard
-![Dashboard](Sales Analytics Dashboard.png)
+![Dashboard](Sales_Analytics_Dashboard.png)
 
 ---
 
