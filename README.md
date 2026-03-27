@@ -31,7 +31,7 @@ both Data Analyst and Data Scientist roles.
 ![App Overview](data/charts/app_overview.png)
 
 ### Tableau Dashboard
-![Dashboard](dashboard/screenshots/dashboard_1_sales.png)
+![Dashboard](C:\Users\nisha\OneDrive\Documents\Project\ecommerce-analytics\Sales Analytics Dashboard.png)
 
 ---
 
@@ -155,7 +155,7 @@ ecommerce-analytics/
 
 ## ▶️ Run Locally
 ```bash
-git clone https://github.com/YOURNAME/ecommerce-analytics.git
+git clone https://github.com/nishanthselvakumar1302/ecommerce-analytics.git
 cd ecommerce-analytics
 pip install -r requirements.txt
 streamlit run app/app.py
