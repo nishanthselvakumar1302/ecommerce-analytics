@@ -95,7 +95,7 @@ def load_data():
     base = os.path.dirname(os.path.abspath(__file__))
 
     df  = pd.read_csv(os.path.join(base, '../data/cleaned/cleaned_online_retail.csv'))
-    rfm = pd.read_csv(os.path.join(base, '../data/rfm/rfm_segments.csv'))
+    rfm = pd.read_csv(os.path.join(base, '../data/RFM/rfm_segments.csv'))
     rec = pd.read_csv(os.path.join(base, '../data/recommendations/all_recommendations.csv'))
 
     df['InvoiceDate'] = pd.to_datetime(df['InvoiceDate'])
@@ -107,10 +107,10 @@ def load_data():
 def load_model():
     base = os.path.dirname(os.path.abspath(__file__))
 
-    with open(os.path.join(base, '../data/churn model/churn_model.pkl'), 'rb') as f:
+    with open(os.path.join(base, '../data/churn_model/churn_model.pkl'), 'rb') as f:
         model = pickle.load(f)
 
-    with open(os.path.join(base, '../data/churn model/scaler.pkl'), 'rb') as f:
+    with open(os.path.join(base, '../data/churn_model/scaler.pkl'), 'rb') as f:
         scaler = pickle.load(f)
 
     return model, scaler
