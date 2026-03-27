@@ -45,6 +45,7 @@ ecommerce-analytics/
 │   ├── recommendations/      ← Product recommendations
 │   ├── sql_results/          ← SQL query outputs
 │   └── charts/               ← All chart images
+│
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
 │   ├── 02_eda.ipynb
@@ -52,6 +53,7 @@ ecommerce-analytics/
 │   ├── 04_rfm_segmentation.ipynb
 │   ├── 05_churn_model.ipynb
 │   └── 06_recommendation.ipynb
+│
 ├── dashboard/                ← Tableau files + screenshots
 ├── models/                   ← Saved ML models (.pkl)
 ├── app/                      ← Streamlit app
