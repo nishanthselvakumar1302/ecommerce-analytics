@@ -1,0 +1,9 @@
+Segment,Customers,Avg_Recency,Avg_Frequency,Avg_Monetary,Total_Revenue
+New Customers,1121,13.1,10.1,3011.82,3376247
+Promising,315,51.1,5.73,1492.8,470233
+Loyal Customers,868,39.63,1.88,499.87,433888
+Needs Attention,381,132.64,3.99,1034.5,394146
+At Risk,1236,213.79,1.31,178.03,220051
+Cannot Lose Them,79,160.16,1.25,2079.15,164253
+Champions,326,18.13,1.26,244.74,79784
+Lost,12,241.92,9.75,1116.67,13400
