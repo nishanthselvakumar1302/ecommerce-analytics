@@ -9,7 +9,7 @@
 ## 🔗 Live Links
 | Resource | Link |
 |---|---|
-| 🚀 Live App | [Click Here](https://yourname-ecommerce-analytics.streamlit.app) |
+| 🚀 Live App | [Click Here](https://ka4dsaw8629m2ukavgy2m9.streamlit.app/) |
 | 📊 Tableau Dashboard | [Click Here](https://public.tableau.com/views/E-CommerceSalesAnalytics2010-2011/SalesAnalyticsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) |
 
 ---
