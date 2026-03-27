@@ -107,10 +107,10 @@ def load_data():
 def load_model():
     base = os.path.dirname(os.path.abspath(__file__))
 
-    with open(os.path.join(base, '../data/churn model/churn_model.pkl'), 'rb') as f:
+    with open(os.path.join(base, '../data/churn_model/churn_model.pkl'), 'rb') as f:
         model = pickle.load(f)
 
-    with open(os.path.join(base, '../data/churn model/scaler.pkl'), 'rb') as f:
+    with open(os.path.join(base, '../data/churn_model/scaler.pkl'), 'rb') as f:
         scaler = pickle.load(f)
 
     return model, scaler
