@@ -9,3 +9,5 @@ sqlalchemy
 psycopg2-binary
 openpyxl
 pickle-mixin
+imghdr
+altair
